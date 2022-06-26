@@ -20,7 +20,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
-  My first FEM challenge. Mixed feelings because it brought the reality that I still have a long way to go in this journey. To be sincere this challenge looked pretty simple till I started and being the first I would take I was almost giving up. It's not the best or definitely good enough. So if by chance you come across this it would be helpful and nice to get feedback mostly on the positioning and calculations. I had a lot of problems with widths and height which also led to it being half-responsive
+  My first FEM challenge. Mixed feelings because it brought the reality that I still have a long way to go in this journey. To be sincere this challenge looked pretty simple till I started and being the first I would take I was almost giving up. It's not the best or definitely good enough. So if by chance you come across this it would be helpful and nice to get feedback mostly on the positioning and calculations. I had a lot of problems with widths and height which also led to it being half-responsive. I also couldn't figure out the hover reducing the product description effect. If you see this please just check it out and help me out. Thank you
+  I really wanted to get it done today(before going to bed)
 
 
 ### The challenge
@@ -38,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/sharonolat/FEM-Product-Preview-Card-Challenge.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [(https://github.com/sharonolat/FEM-Product-Preview-Card-Challenge.git)]
+- Live Site URL: [https://relaxed-tarsier-befb9f.netlify.app/](https://your-live-site-url.com)
 
 ## My process
 - Created the html markup
@@ -79,7 +80,7 @@ Users should be able to:
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sharonolat)
+- Frontend Mentor - [@sharonolat](https://www.frontendmentor.io/profile/sharonolat)
 - Twitter - [@sharonolat](https://www.twitter.com/sharonolat)
 
 
