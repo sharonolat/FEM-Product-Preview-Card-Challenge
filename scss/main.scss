@@ -1,0 +1,138 @@
+@import 'utilities';
+
+// General styles
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: $bg-color;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Fraunces', serif;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+
+//Product
+
+#product{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 700px;
+  
+
+  
+  img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .product-description{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    
+    .category, .name, .description, .price-tag{
+      padding-bottom: 1.2rem;
+    }
+    
+    
+    .name{
+      font-size: 2rem;
+      line-height: 1.1;
+    }
+    
+    .price-tag{
+      display: flex;
+      align-items: center;
+
+      h2{
+        color: $primary-color;
+        font-size: 2rem;
+        margin-right: 1rem;
+      }
+      small{
+        text-decoration: line-through;
+      }
+    }
+    .btn{
+      display: inline-block;
+      border: none;
+      text-align: center;
+      width: 100%;
+      padding: .8rem 0;
+      background: $primary-color;
+      border-radius: 10px;
+    
+      &:hover{
+        background: $dark-blue;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px){
+  #product{
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+    width: 300px;
+
+    img{
+      max-height: 250px;
+      object-fit: cover;
+    
+    }
+    .product-description{
+
+      padding: 1rem;
+
+      .category, .name, .description, .price-tag{
+        padding-bottom: 1rem;
+      }
+
+      .name{
+        font-size: 1.3rem;
+        line-height: 1.1;
+      }
+
+      .description{
+        font-size: .8rem;
+      }
+
+
+      .price-tag{
+        display: flex;
+        align-items: center;
+  
+        h2{
+          color: $primary-color;
+          font-size: 1.3rem;
+          margin-right: 1rem;
+        }
+        small{
+          text-decoration: line-through;
+        }
+      }
+    }
+    
+  }
+}
